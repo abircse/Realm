@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WallpaperDetails">
+
+    <ImageView
+        android:id="@+id/dimagview"
+        android:layout_width="match_parent"
+        android:src="@drawable/placeholder"
+        android:layout_height="300dp"/>
+
+    <TextView
+        android:id="@+id/dtitle"
+        android:layout_width="match_parent"
+        android:text="Walpaper Name"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/ddeatails"
+        android:layout_width="match_parent"
+        android:text="Walpaper Name"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/addtocart"
+        android:layout_gravity="center"
+        android:text="ADD TO CART"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/gotocart"
+        android:layout_gravity="center"
+        android:text="GO TO CART"
+        android:onClick="gotocart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+</LinearLayout>
